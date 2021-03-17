@@ -14,12 +14,13 @@ public class Controller {
     public void funkcija(ActionEvent actionEvent){
 
         helloWorld.setText("Hello World!");
-        helloWorld.setStyle("-fx-background-color: red");
-        helloWorld.setStyle("-fx-font-family: Arial");
-        helloWorld.setStyle(" -fx-font-style: italic;");
-        helloWorld.setStyle("-fx-font-size: 32");
 
-        pozadina.setStyle("-fx-background-color: red");
+        helloWorld.setStyle("-fx-font-family:Arial");
+        helloWorld.setStyle("-fx-font-style:italic;");
+        helloWorld.setStyle("-fx-font-weight:bold;");
+        helloWorld.setStyle("-fx-font-size:32");
+
+        pozadina.setStyle("-fx-background-color:red");
 
     }
 }
